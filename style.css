@@ -1,0 +1,29 @@
+
+*{
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    }
+
+    /* RESET */
+    *{
+        margin: 0;
+        padding: 0;
+        font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    }
+    /*SHARE */
+     .bg-gradient{
+         background: rgb(63,94,251);
+         background: linear-gradient(171deg, rgba(63,94,251,1) 0%, rgba(252,70,236,0.6923144257703081) 100%);
+
+     }
+/* HEADER */
+
+
+
+
+
+.img-logo{
+    width:500px;
+}
