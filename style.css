@@ -54,7 +54,7 @@
           transition: .5s all ease;
       }
       .btn-basic:hover{
-          background: #69ffd0;
+          background: #d769ff;
       }
 
 
@@ -94,7 +94,9 @@
 
 }
 .img-container-one{
-   background-image: url("img/programagora.webp");
+   background-image: url("");
+
+
 }
 .wrapper-second {
     display: flex;
@@ -105,4 +107,7 @@
     width: 65px;
 
 
+}
+.section-second{
+    background-color: hotpink;
 }
