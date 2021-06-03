@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+}
+/*SHARE */
+.bg-gradient{
+    background: rgb(112, 61, 121);
+    background: linear-gradient(171deg, rgba(63,94,251,1) 0%, rgba(252, 70, 236, 0.53) 100%);
+
+}
+section{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.grid {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.wrapper{
+    position: relative;
+}
+.img-container{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    min-height: 280px;
+    background-position: center center ;
+
+}
+.btn-basic{
+    margin: 10px 0px;
+    background: #754483;
+    border-radius: 50px;
+    border: none;
+    color: #fdfff0;
+    padding: 20px 70px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: .5s all ease;
+}
+.btn-basic:hover{
+    background: #c669ff;
+}
+
+
+/* HEADER */
+.img-logo{
+    width:500px;
+}
+.curtain{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    z-index: 0;
+    transform: skewY(-3deg);
+    transform-origin: top left;
+}
+.textBlog{
+    text-align: center;
+    overflow: hidden;
+}
+#text-container{
+    text-align: center;
+}
+.section-first{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.mantenimiento{
+    text-align: inherit;
+    width:600px;
+    height:400px;
+    padding:32px;
+    border:1px solid #000;
+    border-radius:10px;
+    margin-top:-200px;
+    margin-left:-300px;
+    background-color:#fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+.mantenimiento h1, .mantenimiento h2, .mantenimiento p{
+    font-family:"noto sans", sans-serif;
+}
+.mantenimiento h1{
+    font-size:3em;
+
+    padding:16px;
+}
+.mantenimiento h2{
+    font-size:2em;
+    font-style:italic;
+}
+.mantenimiento p{
+    margin:16px 0;
+    line-height:1.5em;
+}
+.section-second{
+    margin-bottom: auto;
+
+}
+
+
