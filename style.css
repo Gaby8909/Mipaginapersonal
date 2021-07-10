@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-
+    -moz-background-image: url("");
 }
 /*SHARE */
 .bg-gradient{
@@ -11,6 +11,7 @@
 
 }
 section{
+    background-position: bottom;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -112,6 +113,10 @@ section{
 .section-second{
     margin-bottom: auto;
 
+}
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+
+    background-color: #a285bd;
 }
 
 
